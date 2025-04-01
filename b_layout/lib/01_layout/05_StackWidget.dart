@@ -25,7 +25,13 @@ class StackWidget extends StatelessWidget {
           color: Colors.yellow, // 가장 윗쪽에 배치
         ),
         Positioned(
-            child: child)
+          top: 50,
+          left: 200,
+            child: Container(
+              width: 100,
+              height: 100,
+              color: Colors.orange,
+            ))
       ],
     );
   }
