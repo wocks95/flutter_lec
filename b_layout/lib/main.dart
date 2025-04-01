@@ -1,4 +1,6 @@
 import 'package:b_layout/01_layout/00_WidgetCombination.dart';
+import 'package:b_layout/02_grid/01_GridViewWidget.dart';
+import 'package:b_layout/02_grid/02_GridViewBuilderWidget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,8 +35,12 @@ class MyHomePage extends StatelessWidget {
         leading: const Icon(Icons.backup),
       ),
       body:
+       // 01_layout 디렉터리 예시
       // const WidgetCombination(),
-      
+
+      // 02_grid 디렉터리 예시
+      // const GridViewWidget(),
+        const GridViewBuilderWidget(),
     );
   }
 
